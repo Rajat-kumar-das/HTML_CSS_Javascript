@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- there are 4 types meta tag
+     1. charset
+     charset used to specify the character encoding for the HTML document
+
+     2. name
+      it is used to provide metadata about the HTML document
+
+     3. http-equiv
+     its used to provide an HTTP header for the HTML document
+
+     4. property
+     it is used to provide metadata about the HTML document
+     -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- for title -->
+    <title>Document</title>
+    <!-- for fav-icon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- for apple touch icon -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- for open graph -->
+    <meta property="og:title" content="My Web Page">
+    <meta property="og:description" content="This is a basic HTML document.">
+    <meta property="og:image" content="image.jpg">
+    <meta property="og:url" content="https://www.example.com">
+
+    <!-- for description -->
+    <meta name="description" content="This is a basic HTML document.">
+    <!-- for keywords -->
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <!-- for author -->
+    <meta name="author" content="Your Name">
+    <!-- for refresh -->
+    <meta http-equiv="refresh" content="30">
+    <!-- for content type -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- for robots -->
+    <meta name="robots" content="index, follow">
+    <!-- for copyright -->
+    <meta name="copyright" content="Your Name">
+    <!-- for application name -->
+    <meta name="application-name" content="My Application">
+    <!-- for theme color -->
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        body {
+            background-color: #8cbbdd;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+<!-- 1.Heading tag -->
+<h1>This is a Heading 1</h1>
+<h2>This is a Heading 2</h2>
+<h3>This is a Heading 3</h3>
+<h4>This is a Heading 4</h4>
+<h5>This is a Heading 5</h5>
+<h6>This is a Heading 6</h6>
+<!-- 2.Paragraph tag -->
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<!-- 3.Anchor tag -->
+<a href="https://www.example.com">This is a link tag</a>
+<!-- 4.Image tag -->
+<img src="image.jpg" alt="This is an image" width="300" height="200">
+<!-- 5.List tag -->
+ <!-- there ere2 tpes ....unordered list and ordered list -->
+<ul>
+    <li>This is an unordered list item 1</li>
+    <li>This is an unordered list item 2</li>
+    <li>This is an unordered list item 3</li>
+</ul>
+<ol>
+    <li>This is an ordered list item 1</li>
+    <li>This is an ordered list item 2</li>
+    <li>This is an ordered list item 3</li>
+</ol>
+<!-- 6.Table tag -->
+<table border="1">
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+    </tr>
+    <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+        <td>Data 3</td>
+    </tr>
+    <tr>
+        <td>Data 4</td>
+        <td>Data 5</td>
+        <td>Data 6</td>
+    </tr>
+   </table>
+<!-- 7.Form tag -->
+<form action="submit_form.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+</form>
+<!-- 8.Button tag -->
+<button type="button" onclick="alert('Button clicked!')">Click Me!</button>
+<!-- 9.Div tag -->
+<div style="background-color: #f0f0f0; padding: 20px;">
+    <h2>This is a div tag</h2>
+    <p>This is a paragraph inside a div tag.</p>
+</div>
+<!-- 10.Span tag -->
+<span style="color: red;">This is a span tag</span>
+<!-- 11.Iframe tag -->
+<iframe src="https://www.example.com" width="300" height="200" title="Iframe Example"></iframe>
+<!-- 12.Script tag -->
+<script>
+    // This is a JavaScript comment
+    console.log("Hello, World!");
+    alert("Hello, World!");
+</script>
+
+</body>
+
+</html>
